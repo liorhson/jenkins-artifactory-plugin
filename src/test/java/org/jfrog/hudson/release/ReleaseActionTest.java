@@ -19,6 +19,7 @@ package org.jfrog.hudson.release;
 import org.jfrog.hudson.release.maven.MavenReleaseAction;
 import org.junit.Before;
 import org.junit.Test;
+import junit.framework.Assert;
 
 import static org.junit.Assert.assertEquals;
 
