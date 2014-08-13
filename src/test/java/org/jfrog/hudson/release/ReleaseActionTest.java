@@ -62,11 +62,12 @@ public class ReleaseActionTest {
         assertEquals("1.2-alpha", action.calculateNextVersion("1.2-alpha"));
     }
     
+    /*
     @Test
     public void testFailure(){
         Assert.assertEquals("a", "b");
     }
-
+    */
     @Test
     public void testError(){
         Object obj = null;
