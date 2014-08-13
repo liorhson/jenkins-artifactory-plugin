@@ -60,4 +60,15 @@ public class ReleaseActionTest {
         assertEquals("1-beta", action.calculateNextVersion("1-beta"));
         assertEquals("1.2-alpha", action.calculateNextVersion("1.2-alpha"));
     }
+    
+    @Test
+    public void testFailure(){
+        Assert.assertEquals("a", "b");
+    }
+
+    @Test
+    public void testError(){
+        Object obj = null;
+        obj.toString();
+    }
 }
